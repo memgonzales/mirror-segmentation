@@ -47,11 +47,9 @@ _, masks = pruner.compress()
 #        in International Conference on Learning Representations, 2020.
 # ========================================================================================================
 
-# =========================================================================
-# To perform prediction using the mode, append the contents of predict.py,
-# but change the model to the pruned model (model) instead of PMDLite,
-# as shown below.
-# =========================================================================
+# ===========================================
+# Perform prediction using the pruned model.
+# ===========================================
 
 import numpy as np
 import os
