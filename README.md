@@ -98,7 +98,7 @@ The following Python libraries and modules (other than those that are part of th
 Library/Module | Description | License
 -- | -- | --
 [PyTorch](https://pytorch.org/) | Provides tensor computation with strong GPU acceleration and deep neural networks built on a tape-based autograd system | BSD 3-Clause License
-[PyTorch Images Models](https://timm.fast.ai/) | Collection of SOTA computer vision models, layers, and utilities | Apache License 2.0
+[PyTorch Images Models](https://timm.fast.ai/) | Collection of state-of-the-art computer vision models, layers, and utilities | Apache License 2.0
 [Neural Network Intelligence](https://nni.readthedocs.io/) | Provides tools for hyperparameter optimization, neural architecture search, model compression and feature engineering | MIT License
 [Pillow](https://pillow.readthedocs.io/en/stable/) | Provides functions for opening, manipulating, and saving image files | Historical Permission Notice and Disclaimer
 [scikit-image](https://scikit-image.org/) | Provides algorithms for image processing | BSD 3-Clause "New" or "Revised" License 
