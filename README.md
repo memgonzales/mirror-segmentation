@@ -93,6 +93,23 @@ Model | Weights
 The split PMD dataset, which we used for model training and evaluation, can be downloaded from this [link](https://drive.google.com/file/d/1_GrWcmRJndXd7wlB5tHqQjA3qx1J75xk/view). Our use of this dataset is under the BSD 3-Clause "New" or "Revised" License.
 
 ## Dependencies
+The following Python libraries and modules (other than those that are part of the Python Standard Library) were used:
+
+Library/Module | Description | License
+-- | -- | --
+[PyTorch](https://pytorch.org/) | Provides tensor computation with strong GPU acceleration and deep neural networks built on a tape-based autograd system | BSD 3-Clause License
+[PyTorch Images Models](https://timm.fast.ai/) | Collection of SOTA computer vision models, layers, and utilities | Apache License 2.0
+[Neural Network Intelligence](https://nni.readthedocs.io/) | Provides tools for hyperparameter optimization, neural architecture search, model compression and feature engineering | MIT License
+[Pillow](https://pillow.readthedocs.io/en/stable/) | Provides functions for opening, manipulating, and saving image files | Historical Permission Notice and Disclaimer
+[scikit-image](https://scikit-image.org/) | Provides algorithms for image processing | BSD 3-Clause "New" or "Revised" License 
+[PyDenseCRF](https://github.com/lucasb-eyer/pydensecrf) | Python wrapper to dense (fully connected) conditional random fields with Gaussian edge potentials. | MIT License
+[tqdm](https://tqdm.github.io/) | Allows the creation of progress bars by wrapping around any iterable	| Mozilla Public Licence (MPL) v. 2.0, MIT License
+[NumPy](https://numpy.org/) | Provides a multidimensional array object, various derived objects, and an assortment of routines for fast operations on arrays | BSD 3-Clause "New" or "Revised" License 
+[TensorBoardX](https://www.tensorflow.org/tensorboard) | Provides visualization and tooling needed for machine learning experimentation | MIT License
+
+*The descriptions are taken from their respective websites.*
+
+Note: Although PyDenseCRF can be installed via `pip` or its [official repository](https://github.com/lucasb-eyer/pydensecrf), we recommend Windows users to install it by running [`setup.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/pydensecrf/setup.py) inside the [`pydensecrf`](https://github.com/memgonzales/mirror-segmentation/tree/main/pydensecrf) directory of our repository to prevent potential issues with `Eigen.cpp`.
 
 ## Authors
 
