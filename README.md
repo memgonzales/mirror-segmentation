@@ -5,6 +5,7 @@
 - [Running the Model](https://github.com/memgonzales/mirror-segmentation#running-the-model)
   - [Training](https://github.com/memgonzales/mirror-segmentation#training)
   - [Prediction](https://github.com/memgonzales/mirror-segmentation#prediction)
+  - [Evaluation](https://github.com/memgonzales/mirror-segmentation#evaluation)
   - [Models & Weights](https://github.com/memgonzales/mirror-segmentation#models--weights)
 - [Dataset](https://github.com/memgonzales/mirror-segmentation#dataset)
 - [Dependencies](https://github.com/memgonzales/mirror-segmentation#dependencies)
@@ -20,7 +21,7 @@
 ## Running the Model
 
 ### Training
-Run the following command:
+Run the following command to train the unpruned model:
 ```
 python train.py
 ```
@@ -28,21 +29,32 @@ python train.py
 - The images should be saved in `<training_path>/image`.
 - The ground-truth masks should be saved in `<training_path>/mask`.
 - The ground-truth edge maps should be saved in `<training_path>/edge`.
-- `training_path` can be set in [config.py]().
+- `training_path` can be set in [`config.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/config.py).
+
+To retrain the pruned model, follow the instructions in [`prune.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/prune.py).
 
 ### Prediction
-Run the following command:
+Run the following command to perform prediction using the unpruned model:
 ```
 python predict.py
 ```
 
+Run the following command to perform prediction using the pruned model:
+```
+python prune.py
+```
+
 - The images should be saved in `<testing_path>/<dataset_name>/image`.
+- The file path to the unpruned model weights should be `<weights_path>`.
+- The file path to the pruned model weights should be `<pruned_weights_path>`.
+- `testing_path`, `dataset_name`, `weights_path`, and `pruned_weights_path` can be set in [`config.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/config.py).
+
+### Evaluation
 - The ground-truth masks should be saved in `<testing_path>/<dataset_name>/mask`.
-- The ground-truth edge maps should be saved in `<testing_path>/<dataset_name>/edge`.
-- `testing_path` and `dataset_name` can be set in [config.py]().
+
 
 ### Models & Weights
-
+By default, `train.py`, `predict.py`, and `prune.py` refer to the model defined in `pmd.py`. 
 
 ## Dataset
 **Our proposed dataset, DLSU-OMRS (De La Salle University &ndash; Outdoor Mirrors and Reflective Surfaces), can be downloaded from this [link](https://drive.google.com/drive/folders/1UekoWvJQQr9UoTIFoQuyX3Y7X80_zkW_?usp=sharing).** The images have their respective licenses, and the ground-truth masks are licensed under the [BSD 3-Clause "New" or "Revised" License](https://github.com/memgonzales/mirror-segmentation/blob/main/LICENSE). The use of this dataset is restricted to noncommercial purposes only.
