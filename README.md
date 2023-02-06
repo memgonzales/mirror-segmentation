@@ -68,9 +68,9 @@ python misc.py
 
 
 ### Models & Weights
-By default, [`train.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/train.py), [`predict.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/predict.py), and [`prune.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/prune.py) refer to the model defined in [`pmd.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/pmd.py), which employs an EfficientNetV2-Medium backbone and our proposed edge extraction and fusion module.
+By default, [`train.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/train.py), [`predict.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/predict.py), and [`prune.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/prune.py) use the model defined in [`pmd.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/pmd.py), which employs an EfficientNetV2-Medium backbone and our proposed edge extraction and fusion module.
 
-To use the other feature extraction backbones that we considered in our experiments, refer to the models in [`models_experiments`](https://github.com/memgonzales/mirror-segmentation/tree/main/models_experiments) and the weights in this [Drive](https://drive.google.com/drive/folders/1Co488ztOdvY0208G2qPLBxOGIZxl3rjr?usp=sharing). These models use our proposed edge extraction and fusion module:
+To explore the other feature extraction backbones that we considered in our experiments, refer to the models in [`models_experiments`](https://github.com/memgonzales/mirror-segmentation/tree/main/models_experiments) and the weights in this [Drive](https://drive.google.com/drive/folders/1Co488ztOdvY0208G2qPLBxOGIZxl3rjr?usp=sharing). These models use our proposed edge extraction and fusion module:
 
 Model | Weights 
 -- | --
