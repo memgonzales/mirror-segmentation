@@ -111,7 +111,7 @@ Library/Module | Description | License
 
 *The descriptions are taken from their respective websites.*
 
-Note: Although PyDenseCRF can be installed via [`pip`](https://pypi.org/project/pydensecrf/) or its [official repository](https://github.com/lucasb-eyer/pydensecrf), we recommend Windows users to install it by running [`setup.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/pydensecrf/setup.py) inside the [`pydensecrf`](https://github.com/memgonzales/mirror-segmentation/tree/main/pydensecrf) directory of our repository to prevent potential issues with `Eigen.cpp`.
+Note: Although PyDenseCRF can be installed via [`pip`](https://pypi.org/project/pydensecrf/) or its [official repository](https://github.com/lucasb-eyer/pydensecrf), we recommend Windows users to install it by running [`setup.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/pydensecrf/setup.py) inside the [`pydensecrf`](https://github.com/memgonzales/mirror-segmentation/tree/main/pydensecrf) directory of our repository to prevent potential issues with `Eigen.cpp` (refer to this [issue](https://github.com/lucasb-eyer/pydensecrf/issues/99) for additional details).
 
 ## Authors
 
