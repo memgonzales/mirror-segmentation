@@ -34,7 +34,8 @@ python train.py
 - The images should be saved in `<training_path>/image`.
 - The ground-truth masks should be saved in `<training_path>/mask`.
 - The ground-truth edge maps should be saved in `<training_path>/edge`.
-- `training_path` can be set in [`config.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/config.py).
+- The training checkpoints will be saved in `checkpoint_path`. 
+- `training_path` and `checkpoint_path` can be set in [`config.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/config.py).
 
 To retrain the pruned model, follow the instructions in [`prune.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/prune.py).
 
@@ -52,14 +53,29 @@ python prune.py
 - The images should be saved in `<testing_path>/<dataset_name>/image`.
 - The file path to the unpruned model weights should be `<weights_path>`.
 - The file path to the pruned model weights should be `<pruned_weights_path>`.
-- `testing_path`, `dataset_name`, `weights_path`, and `pruned_weights_path` can be set in [`config.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/config.py).
+- The predicted masks will be saved in `<result_path>/<dataset_name>`.
+- `testing_path`, `dataset_name`, `weights_path`, `pruned_weights_path`, and `result_path` can be set in [`config.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/config.py).
 
 ### Evaluation
+Run the following command to perform model evaluation:
+```
+python misc.py
+```
+
+- The predicted masks should be saved in `<result_path>/<dataset_name>`.
 - The ground-truth masks should be saved in `<testing_path>/<dataset_name>/mask`.
+- `result_path`, `testing_path`, and `dataset_name` can be set in [`config.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/config.py).
 
 
 ### Models & Weights
-By default, `train.py`, `predict.py`, and `prune.py` refer to the model defined in `pmd.py`. 
+By default, [`train.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/train.py), [`predict.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/predict.py), and [`prune.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/prune.py) refer to the model defined in [`pmd.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/pmd.py), which employs an EfficientNetV2-Medium backbone and our proposed edge extraction and fusion module.
+
+To use the other feature extraction backbones that we considered in our experiments, refer to the models in [`models_experiments`](https://github.com/memgonzales/mirror-segmentation/tree/main/models_experiments):
+
+Model | Weights 
+-- | --
+**[Best]** [EfficientNetV2-Medium](https://github.com/memgonzales/mirror-segmentation/blob/main/pmd.py) | [Link](https://drive.google.com/file/d/1qq6SFD8Ve_4QQlSq7p0e1GVK7y0dhnP_/view?usp=sharing)
+**[Best, Pruned]** EfficentNetV2-Medium | [Link](https://drive.google.com/file/d/18zsqjK1aHVC4D8Ky530C--fwxdQylQ37/view?usp=sharing)
 
 ## Dataset
 **Our proposed dataset, DLSU-OMRS (De La Salle University &ndash; Outdoor Mirrors and Reflective Surfaces), can be downloaded from this [link](https://drive.google.com/drive/folders/1UekoWvJQQr9UoTIFoQuyX3Y7X80_zkW_?usp=sharing).** The images have their respective licenses, and the ground-truth masks are licensed under the [BSD 3-Clause "New" or "Revised" License](https://github.com/memgonzales/mirror-segmentation/blob/main/LICENSE). The use of this dataset is restricted to noncommercial purposes only.
