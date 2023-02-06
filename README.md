@@ -22,6 +22,16 @@
 ## Running the Model
 
 ### Training
+Run the following command:
+```
+python train.py
+```
+
+- The images should be saved in `<training_path>/image`.
+- The ground-truth masks should be saved in `<training_path>/mask`.
+- The ground-truth edge maps should be saved in `<training_path>/edge`.
+- `training_path` can be set in [config.py]().
+
 
 *↑ Return to [Table of Contents](https://github.com/memgonzales/mirror-segmentation#table-of-contents).*
 
