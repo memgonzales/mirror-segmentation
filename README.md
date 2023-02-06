@@ -1,4 +1,9 @@
 # Designing a Lightweight Edge-Guided CNN for Segmenting Mirrors and Reflective Surfaces
+![badge][badge-python]
+![badge][badge-numpy]
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)  <br>
+[![Actions Status](https://github.com/bioinfodlsu/phage-host-prediction/workflows/Check%20for%20syntax%20errors/badge.svg)](https://github.com/bioinfodlsu/phage-host-prediction/actions)
+![badge][badge-github-actions]
 
 ## Table of Contents
 - [Description](https://github.com/memgonzales/mirror-segmentation#description)
@@ -75,3 +80,7 @@ The split PMD dataset, which we used for model training and evaluation, can be d
     joel.ilao@dlsu.edu.ph <br/>    
 
 This is the major course output in a computer vision class for master's students under Dr. Joel P. Ilao of the Department of Computer Technology, De La Salle University. The task is to create an eight-week small-scale project that applies computer vision-based techniques to present a solution to an identified research problem.
+
+[badge-python]: https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=white
+[badge-numpy]: https://img.shields.io/badge/Numpy-777BB4?style=flat&logo=numpy&logoColor=white
+[badge-github-actions]: https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white
