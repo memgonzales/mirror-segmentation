@@ -5,6 +5,8 @@
 
 **Index Terms:** Mirror segmentation, Object detection, Pruning, Convolutional neural network (CNN)
 
+<img src="https://github.com/memgonzales/mirror-segmentation/blob/main/teaser.png?raw=True" alt="Teaser Figure" width = 800> 
+
 ## Authors
 
 -   <b>Mark Edward M. Gonzales</b> <br/>
