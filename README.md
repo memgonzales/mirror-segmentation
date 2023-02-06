@@ -34,7 +34,7 @@ python train.py
 - The images should be saved in `<training_path>/image`.
 - The ground-truth masks should be saved in `<training_path>/mask`.
 - The ground-truth edge maps should be saved in `<training_path>/edge`.
-- The training checkpoints will be saved in `checkpoint_path`. 
+- The training checkpoints will be saved in `<checkpoint_path>`. 
 - `training_path` and `checkpoint_path` can be set in [`config.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/config.py).
 
 To retrain the pruned model, follow the instructions in [`prune.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/prune.py).
