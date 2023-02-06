@@ -70,7 +70,7 @@ python misc.py
 ### Models & Weights
 By default, [`train.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/train.py), [`predict.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/predict.py), and [`prune.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/prune.py) use the model defined in [`pmd.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/pmd.py), which employs an EfficientNetV2-Medium backbone and our proposed edge extraction and fusion module.
 
-To explore the other feature extraction backbones that we considered in our experiments, refer to the models in [`models_experiments`](https://github.com/memgonzales/mirror-segmentation/tree/main/models_experiments) and the weights in this [Drive](https://drive.google.com/drive/folders/1Co488ztOdvY0208G2qPLBxOGIZxl3rjr?usp=sharing). These models use our proposed edge extraction and fusion module:
+To explore the other feature extraction backbones that we considered in our experiments, refer to the models in [`models_experiments`](https://github.com/memgonzales/mirror-segmentation/tree/main/models_experiments) and the weights in this [Drive](https://drive.google.com/drive/folders/1Co488ztOdvY0208G2qPLBxOGIZxl3rjr?usp=sharing):
 
 Model | Weights 
 -- | --
@@ -84,7 +84,9 @@ Model | Weights
 [EfficientNet-Lite](https://github.com/memgonzales/mirror-segmentation/blob/main/models_experiments/pmdvEfficientNetLite.py) | [Link](https://drive.google.com/file/d/1K0GK4pOlOwKAlfwySHQhATTRJKQlhPbG/view?usp=sharing)
 [EfficientNetEdge-Large](https://github.com/memgonzales/mirror-segmentation/blob/main/models_experiments/pmdvEfficientNetEdge.py) | [Link](https://drive.google.com/file/d/1W5H0sMuJOK0ylGUYhtY8m2rCkvumyzNi/view?usp=sharing)
 
-*EDF stands for edge detection and fusion.*
+*EDF stands for edge detection and fusion.* <br>
+
+Note: With the exception of ResNet-50 (+ PMD's original EDF module), the models in the table above use our proposed edge extraction and fusion module.
 
 
 ## Dataset
