@@ -2,12 +2,12 @@
 
 ## Table of Contents
 - [Description](https://github.com/memgonzales/mirror-segmentation#description)
+- [Running the Model](https://github.com/memgonzales/mirror-segmentation#running-the-model)
+  - [Training](https://github.com/memgonzales/mirror-segmentation#training)
+  - [Prediction](https://github.com/memgonzales/mirror-segmentation#prediction)
+  - [Models & Weights](https://github.com/memgonzales/mirror-segmentation#models--weights)
 - [Dataset](https://github.com/memgonzales/mirror-segmentation#dataset)
-- Running the Model
-  - Training
-  - Testing
-  - Models & Weights
-- Dependencies
+- [Dependencies](https://github.com/memgonzales/mirror-segmentation#dependencies)
 - [Authors](https://github.com/memgonzales/mirror-segmentation#authors)
 
 ## Description
@@ -40,12 +40,16 @@ The split PMD dataset, which we used for model training and evaluation, can be d
 
 *↑ Return to [Table of Contents](https://github.com/memgonzales/mirror-segmentation#table-of-contents).*
 
+## Dependencies
+
 ## Authors
 
 -   <b>Mark Edward M. Gonzales</b> <br/>
-    mark_gonzales@dlsu.edu.ph <br/>
+    mark_gonzales@dlsu.edu.ph <br/> 
+    
 -   <b>Lorene C. Uy</b> <br/>
     lorene_c_uy@dlsu.edu.ph <br/>
+    
 -   <b>Dr. Joel P. Ilao</b> <br/>
     joel.ilao@dlsu.edu.ph <br/>    
 
