@@ -17,8 +17,6 @@
 
 <img src="https://github.com/memgonzales/mirror-segmentation/blob/main/teaser.png?raw=True" alt="Teaser Figure" width = 800> 
 
-*↑ Return to [Table of Contents](https://github.com/memgonzales/mirror-segmentation#table-of-contents).*
-
 ## Running the Model
 
 ### Training
@@ -32,23 +30,24 @@ python train.py
 - The ground-truth edge maps should be saved in `<training_path>/edge`.
 - `training_path` can be set in [config.py]().
 
-
-*↑ Return to [Table of Contents](https://github.com/memgonzales/mirror-segmentation#table-of-contents).*
-
 ### Prediction
+Run the following command:
+```
+python predict.py
+```
 
-*↑ Return to [Table of Contents](https://github.com/memgonzales/mirror-segmentation#table-of-contents).*
+- The images should be saved in `<testing_path>/<dataset_name>/image`.
+- The ground-truth masks should be saved in `<testing_path>/<dataset_name>/mask`.
+- The ground-truth edge maps should be saved in `<testing_path>/<dataset_name>/edge`.
+- `testing_path` and `dataset_name` can be set in [config.py]().
 
 ### Models & Weights
 
-*↑ Return to [Table of Contents](https://github.com/memgonzales/mirror-segmentation#table-of-contents).*
 
 ## Dataset
 **Our proposed dataset, DLSU-OMRS (De La Salle University &ndash; Outdoor Mirrors and Reflective Surfaces), can be downloaded from this [link](https://drive.google.com/drive/folders/1UekoWvJQQr9UoTIFoQuyX3Y7X80_zkW_?usp=sharing).** The images have their respective licenses, and the ground-truth masks are licensed under the [BSD 3-Clause "New" or "Revised" License](https://github.com/memgonzales/mirror-segmentation/blob/main/LICENSE). The use of this dataset is restricted to noncommercial purposes only.
 
 The split PMD dataset, which we used for model training and evaluation, can be downloaded from this [link](https://drive.google.com/file/d/1_GrWcmRJndXd7wlB5tHqQjA3qx1J75xk/view). Our use of this dataset is under the BSD 3-Clause "New" or "Revised" License.
-
-*↑ Return to [Table of Contents](https://github.com/memgonzales/mirror-segmentation#table-of-contents).*
 
 ## Dependencies
 
