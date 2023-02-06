@@ -70,12 +70,22 @@ python misc.py
 ### Models & Weights
 By default, [`train.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/train.py), [`predict.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/predict.py), and [`prune.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/prune.py) refer to the model defined in [`pmd.py`](https://github.com/memgonzales/mirror-segmentation/blob/main/pmd.py), which employs an EfficientNetV2-Medium backbone and our proposed edge extraction and fusion module.
 
-To use the other feature extraction backbones that we considered in our experiments, refer to the models in [`models_experiments`](https://github.com/memgonzales/mirror-segmentation/tree/main/models_experiments):
+To use the other feature extraction backbones that we considered in our experiments, refer to the models in [`models_experiments`](https://github.com/memgonzales/mirror-segmentation/tree/main/models_experiments). These models use our proposed edge extraction and fusion module:
 
 Model | Weights 
 -- | --
 **[Best]** [EfficientNetV2-Medium](https://github.com/memgonzales/mirror-segmentation/blob/main/pmd.py) | [Link](https://drive.google.com/file/d/1qq6SFD8Ve_4QQlSq7p0e1GVK7y0dhnP_/view?usp=sharing)
-**[Best, Pruned]** EfficentNetV2-Medium | [Link](https://drive.google.com/file/d/18zsqjK1aHVC4D8Ky530C--fwxdQylQ37/view?usp=sharing)
+**[Best, Pruned]** [EfficentNetV2-Medium](https://github.com/memgonzales/mirror-segmentation/blob/main/prune.py) | [Link](https://drive.google.com/file/d/18zsqjK1aHVC4D8Ky530C--fwxdQylQ37/view?usp=sharing)
+[ResNet-50](https://github.com/memgonzales/mirror-segmentation/blob/main/models_experiments/pmdvResNet.py) | [Link](https://drive.google.com/file/d/10_ZOeklWaGthscCe6mR-77l9E9RTwvuf/view?usp=sharing)
+[ResNet-50 (+ PMD's original EDF module)](https://github.com/memgonzales/mirror-segmentation/blob/main/models_experiments/pmdvOrigResNet.py) | [Link](https://drive.google.com/file/d/10TRcRTvRLG6UuxryH7MJmZdTbAn_qiaH/view?usp=sharing)
+[Xception-65](https://github.com/memgonzales/mirror-segmentation/blob/main/models_experiments/pmdvXception.py) | [Link](https://drive.google.com/file/d/1JgDjd4Au7CAy17ciWs2J6EgIHrPZ9o82/view?usp=sharing)
+[VoVNet-39](https://github.com/memgonzales/mirror-segmentation/blob/main/models_experiments/pmdvVoVNet.py) | [Link](https://drive.google.com/file/d/14qRo1qyCZ32MDLxAN3pnMckdV2gKoGha/view?usp=sharing)
+[MobileNetV3](https://github.com/memgonzales/mirror-segmentation/blob/main/models_experiments/pmdvMobileNet.py) | [Link](https://drive.google.com/file/d/1Z1aFh6HMMkm38RS3d_kcxjzvXs-OzXGT/view?usp=sharing)
+[EfficientNet-Lite](https://github.com/memgonzales/mirror-segmentation/blob/main/models_experiments/pmdvEfficientNetLite.py) | [Link](https://drive.google.com/file/d/1K0GK4pOlOwKAlfwySHQhATTRJKQlhPbG/view?usp=sharing)
+[EfficientNetEdge-Large](https://github.com/memgonzales/mirror-segmentation/blob/main/models_experiments/pmdvEfficientNetEdge.py) | [Link](https://drive.google.com/file/d/1W5H0sMuJOK0ylGUYhtY8m2rCkvumyzNi/view?usp=sharing)
+
+*EDF stands for edge detection and fusion.*
+
 
 ## Dataset
 **Our proposed dataset, DLSU-OMRS (De La Salle University &ndash; Outdoor Mirrors and Reflective Surfaces), can be downloaded from this [link](https://drive.google.com/drive/folders/1UekoWvJQQr9UoTIFoQuyX3Y7X80_zkW_?usp=sharing).** The images have their respective licenses, and the ground-truth masks are licensed under the [BSD 3-Clause "New" or "Revised" License](https://github.com/memgonzales/mirror-segmentation/blob/main/LICENSE). The use of this dataset is restricted to noncommercial purposes only.
