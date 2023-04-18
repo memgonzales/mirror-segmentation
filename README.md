@@ -5,7 +5,7 @@
 [![Actions Status](https://github.com/bioinfodlsu/phage-host-prediction/workflows/Check%20for%20syntax%20errors/badge.svg)](https://github.com/bioinfodlsu/phage-host-prediction/actions)
 ![badge][badge-github-actions]
 
-**This work was accepted for full paper presentation at the 2023 International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision ([WSCG 2023](http://www.wscg.eu/))**.
+**This work was accepted for full paper presentation at the 2023 International Conference on Computer Graphics, Visualization and Computer Vision ([WSCG 2023](http://www.wscg.eu/)), held virtually and in-person in Pilsen, Czech Republic:**
 
 - The preprint version of our paper can be accessed via this [link]().
 
