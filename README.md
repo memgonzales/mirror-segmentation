@@ -94,7 +94,9 @@ Note: With the exception of ResNet-50 (+ PMD's original EDF module), the models 
 
 
 ## Dataset
-**Our proposed dataset, DLSU-OMRS (De La Salle University &ndash; Outdoor Mirrors and Reflective Surfaces), can be downloaded from this [link](https://drive.google.com/drive/folders/1UekoWvJQQr9UoTIFoQuyX3Y7X80_zkW_?usp=sharing).** The images have their respective licenses, and the ground-truth masks are licensed under the [BSD 3-Clause "New" or "Revised" License](https://github.com/memgonzales/mirror-segmentation/blob/main/LICENSE). The use of this dataset is restricted to noncommercial purposes only.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7855135.svg)](https://doi.org/10.5281/zenodo.7855135)
+
+**Our proposed dataset, DLSU-OMRS (De La Salle University &ndash; Outdoor Mirrors and Reflective Surfaces), can be downloaded from this [link](https://doi.org/10.5281/zenodo.7855135).** The images have their respective licenses, and the ground-truth masks are licensed under the [BSD 3-Clause "New" or "Revised" License](https://github.com/memgonzales/mirror-segmentation/blob/main/LICENSE). The use of this dataset is restricted to noncommercial purposes only.
 
 The split PMD dataset, which we used for model training and evaluation, can be downloaded from this [link](https://drive.google.com/file/d/1_GrWcmRJndXd7wlB5tHqQjA3qx1J75xk/view). Our use of this dataset is under the BSD 3-Clause "New" or "Revised" License.
 
