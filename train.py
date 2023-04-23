@@ -4,7 +4,7 @@
 
 # Reference source code:
 #    H. Mei, G. P. Ji, Z. Wei, X. Yang, X. Wei, and D. P. Fang (2021). 
-#        "Camouflaged object segmentation With distraction mining," 
+#        "Camouflaged object segmentation with distraction mining," 
 #        in 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition, 
 #        Nashville, TN, USA: IEEE Computer Society, June 2021, pp. 8768–8877.
 #    Repository: https://github.com/Mhaiyang/CVPR2021_PFNet
