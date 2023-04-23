@@ -3,15 +3,16 @@
 # ================================================================
 
 # Reference Source Codes:
-#    H. Mei (2021). "Camouflaged object segmentation With distraction mining,"
-#        2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition, 
-#        pp. 8768-8877, 2021.
+#    H. Mei, G. P. Ji, Z. Wei, X. Yang, X. Wei, and D. P. Fang (2021). 
+#        "Camouflaged object segmentation With distraction mining," 
+#        in 2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition, 
+#        Nashville, TN, USA: IEEE Computer Society, June 2021, pp. 8768–8877.
 #    Repository: https://github.com/Mhaiyang/CVPR2021_PFNet
 #
 #    [For additive loss combining weighted BCE and IoU loss]
 #    J. Wei, S. Wang, and Q. Huang, "F³net: Fusion, feedback and focus
 #        for salient object detection," Proceedings of the AAAI Conference on
-#        Artificial Intelligence, vol. 34, no. 07, pp. 12 321–12 328, Apr. 2020.
+#        Artificial Intelligence, vol. 34, no. 07, pp. 12321–12328, Apr. 2020.
 #    Repository: https://github.com/weijun88/F3Net/blob/master/src/train.py
 
 
