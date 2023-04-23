@@ -125,7 +125,7 @@ Attributions for reference source code are provided in the individual Python scr
 
 Reference | License
 -- | --
-[H. Mei, G. P. Ji, Z. Wei, X. Yang, X. Wei, and D. P. Fang (2021). "Camouflaged object segmentation With distraction mining," in *2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*. Nashville, TN, USA: IEEE Computer Society, June 2021, pp. 8768–8877.](https://github.com/Mhaiyang/CVPR2021_PFNet) | BSD 3-Clause "New" or "Revised" License
+[H. Mei, G. P. Ji, Z. Wei, X. Yang, X. Wei, and D. P. Fang (2021). "Camouflaged object segmentation with distraction mining," in *2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*. Nashville, TN, USA: IEEE Computer Society, June 2021, pp. 8768–8877.](https://github.com/Mhaiyang/CVPR2021_PFNet) | BSD 3-Clause "New" or "Revised" License
 [J. Wei, S. Wang, and Q. Huang, "F³net: Fusion, feedback and focus for salient object detection," *Proceedings of the AAAI Conference on Artificial Intelligence*, vol. 34, no. 07, pp. 12321–12328, Apr. 2020.](https://github.com/weijun88/F3Net) | MIT License
 [J. Lin, G. Wang, and R. H. Lau, "Progressive mirror detection,” in *2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*. Los Alamitos, CA, USA: IEEE Computer Society, June 2020, pp. 3694–3702.](https://jiaying.link/cvpr2020-pgd/) | BSD 3-Clause "New" or "Revised" License
 
