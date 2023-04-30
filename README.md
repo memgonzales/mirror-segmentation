@@ -8,6 +8,7 @@
 **This work was accepted for full paper presentation at the 2023 International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision ([WSCG 2023](http://www.wscg.eu/)), held virtually and in-person in Pilsen, Czech Republic:**
 
 - The preprint version of our paper can be accessed via this [link]().
+- Our [dataset of mirrors and reflective surfaces](https://github.com/memgonzales/mirror-segmentation#dataset) is publicly released for future researchers.
 
 ## Table of Contents
 - [Description](https://github.com/memgonzales/mirror-segmentation#description)
