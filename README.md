@@ -10,6 +10,8 @@
 - Our preprint can be accessed via this [link](https://github.com/memgonzales/mirror-segmentation/blob/main/Designing%20a%20Lightweight%20Edge-Guided%20CNN%20for%20Segmenting%20Mirrors%20and%20Reflective%20Surfaces.pdf).
 - Our [dataset of mirrors and reflective surfaces](https://github.com/memgonzales/mirror-segmentation#dataset) is publicly released for future researchers.
 
+This repository is also archived on [Zenodo](https://doi.org/10.5281/zenodo.7886808).
+
 ## Table of Contents
 - [Description](https://github.com/memgonzales/mirror-segmentation#description)
 - [Running the Model](https://github.com/memgonzales/mirror-segmentation#running-the-model)
