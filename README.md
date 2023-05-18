@@ -8,6 +8,8 @@
 **This work was accepted for full paper presentation at the 2023 International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision ([WSCG 2023](http://www.wscg.eu/)), held virtually and in-person in Pilsen, Czech Republic:**
 
 - Our preprint can be accessed via this [link](https://github.com/memgonzales/mirror-segmentation/blob/main/Designing%20a%20Lightweight%20Edge-Guided%20CNN%20for%20Segmenting%20Mirrors%20and%20Reflective%20Surfaces.pdf).
+  - Our WSCG 2023 presentation slides can be accessed via this [link](https://github.com/memgonzales/mirror-segmentation/blob/main/Presentation%20Slides.pdf).
+  - Our WSCG 2023 presentation video can be viewed on [YouTube](https://www.youtube.com/watch?v=cypsG6f3Sr0).
 - Our [dataset of mirrors and reflective surfaces](https://github.com/memgonzales/mirror-segmentation#dataset) is publicly released for future researchers.
 
 This repository is also archived on [Zenodo](https://doi.org/10.5281/zenodo.7886808).
