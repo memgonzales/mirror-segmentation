@@ -7,10 +7,27 @@
 
 **This work was accepted for full paper presentation at the 2023 International Conference in Central Europe on Computer Graphics, Visualization and Computer Vision ([WSCG 2023](http://www.wscg.eu/)), held virtually and in-person in Pilsen, Czech Republic:**
 
-- Our preprint can be accessed via this [link](https://github.com/memgonzales/mirror-segmentation/blob/main/Designing%20a%20Lightweight%20Edge-Guided%20CNN%20for%20Segmenting%20Mirrors%20and%20Reflective%20Surfaces.pdf).
+- The final version of our paper (as published in *Computer Science Research Notes*) can be accessed via this [link](http://wscg.zcu.cz/WSCG2023/full/E59-full.pdf).
   - Our WSCG 2023 presentation slides can be accessed via this [link](https://github.com/memgonzales/mirror-segmentation/blob/main/Presentation%20Slides.pdf).
   - Our WSCG 2023 presentation video can be viewed on [YouTube](https://www.youtube.com/watch?v=cypsG6f3Sr0).
 - Our [dataset of mirrors and reflective surfaces](https://github.com/memgonzales/mirror-segmentation#dataset) is publicly released for future researchers.
+
+If you find our work useful, please consider citing:
+```
+@ARTICLE{2023-E59,
+  author={Gonzales, Mark Edward M. and  Uy, Lorene C. and  Ilao, Joel P.},
+  title={Designing a Lightweight Edge-Guided Convolutional Neural Network for Segmenting Mirrors and Reflective Surfaces},
+  journal={Computer Science Research Notes},
+  year={2023},
+  volume={3301},
+  pages={107-116},
+  doi={10.24132/CSRN.3301.14},
+  publisher={Union Agency, Science Press},
+  issn={2464-4617},
+  abbrev_source_title={CSRN},
+  document_type={Article},
+  source={Scopus}}
+```
 
 This repository is also archived on [Zenodo](https://doi.org/10.5281/zenodo.7886808).
 
